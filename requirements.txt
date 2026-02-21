@@ -12,9 +12,9 @@ tqdm==4.67.1
 matplotlib==3.10.0
 
 # ---------- PyTorch ----------
-torch==2.1.2
-torchvision==0.16.2
-torchaudio==2.1.2
+torch==2.1.0
+torchvision==0.16.0
+torchaudio==2.1.0
 
 # ---------- Hugging Face / LLM ----------
 transformers==4.48.0
