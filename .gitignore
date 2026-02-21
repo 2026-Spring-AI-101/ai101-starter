@@ -205,3 +205,36 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# ===== AI101 / Codespaces caches (do NOT commit) =====
+# Model caches (Diffusers / HF)
+models/
+**/models/
+
+# HF global cache (if you ever use it)
+.hf_cache/
+**/.hf_cache/
+
+# Dataset caches / downloads
+data/
+data_local/
+datasets/
+**/data/
+**/data_local/
+**/datasets/
+
+# Outputs (figures, generated images, logs)
+outputs/
+runs/
+logs/
+**/outputs/
+**/runs/
+**/logs/
+
+# Common large model weights
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
