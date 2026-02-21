@@ -1,0 +1,41 @@
+# =========================================================
+# AI101 (Codespaces) unified environment - CPU friendly
+# =========================================================
+# 关键：强制使用 PyTorch 的 CPU wheel，避免在 Codespaces 下载 CUDA / nvidia-* 巨包
+--index-url https://download.pytorch.org/whl/cpu
+--extra-index-url https://pypi.org/simple
+
+# ---------- Core scientific ----------
+numpy==1.26.4
+scipy==1.15.0
+tqdm==4.67.1
+matplotlib==3.10.0
+
+# ---------- PyTorch ----------
+torch==2.1.2
+torchvision==0.16.2
+torchaudio==2.1.2
+
+# ---------- Hugging Face / LLM ----------
+transformers==4.48.0
+accelerate==1.2.1
+datasets==3.2.0
+huggingface-hub==0.27.1
+tokenizers==0.21.0
+safetensors==0.5.0
+sentencepiece==0.2.0
+einops==0.8.0
+
+# ---------- Image generation ----------
+diffusers==0.32.1
+Pillow
+
+# ---------- Audio / Music generation ----------
+audiocraft==1.3.0
+librosa==0.10.2.post1
+soundfile==0.13.0
+soxr==0.5.0.post1
+av==11.0.0
+
+# ---------- Notebook kernel (VS Code / Jupyter) ----------
+ipykernel
