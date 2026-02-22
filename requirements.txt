@@ -26,6 +26,8 @@ einops==0.8.0
 
 diffusers==0.32.1
 
+llama-cpp-python==0.3.16
+
 # 音频读写（生成 wav 用）
 soundfile==0.13.0
 librosa==0.10.2.post1
